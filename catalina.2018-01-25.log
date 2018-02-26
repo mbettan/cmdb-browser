@@ -1,0 +1,437 @@
+25-Jan-2018 10:04:41.433 INFO [Thread-19] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:04:41.485 INFO [Thread-19] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:04:41.537 INFO [Thread-19] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jan-2018 10:04:41.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:04:41.615 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:04:41.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:04:42.078 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:04:42.081 INFO [Thread-19] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:04:42.082 INFO [Thread-19] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:04:42.086 INFO [Thread-19] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:04:42.087 INFO [Thread-19] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:14:31.684 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Valve} Setting property 'resolveHosts' to 'false' did not find a matching property.
+25-Jan-2018 10:14:31.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:14:31.867 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:14:31.870 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:14:31.891 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:14:31.910 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 787 ms
+25-Jan-2018 10:14:31.973 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jan-2018 10:14:31.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat
+25-Jan-2018 10:14:32.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery-log.war]
+25-Jan-2018 10:14:36.247 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:14:37.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery-log.war] has finished in [5,749] ms
+25-Jan-2018 10:14:37.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery.war]
+25-Jan-2018 10:14:41.067 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:14:42.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery.war] has finished in [4,959] ms
+25-Jan-2018 10:14:42.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/new-ui.war]
+25-Jan-2018 10:14:46.293 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:14:47.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/new-ui.war] has finished in [4,439] ms
+25-Jan-2018 10:14:47.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war]
+25-Jan-2018 10:14:59.285 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:15:01.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war] has finished in [13,933] ms
+25-Jan-2018 10:15:01.134 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:15:01.141 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:15:01.144 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 29234 ms
+25-Jan-2018 10:24:32.516 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:24:32.567 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:24:32.619 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jan-2018 10:24:33.097 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:24:33.098 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [Thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+ sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+ sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+ sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+ java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+ com.hp.ucmdb_browser.server.util.URLPinger.pingURL(URLPinger.java:46)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:196)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:24:33.264 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:24:33.265 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+ sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+ sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+ sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+ java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+ com.hp.ucmdb_browser.server.util.URLPinger.pingURL(URLPinger.java:46)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:196)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:24:33.423 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:24:33.424 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+ sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+ sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+ sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+ java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+ com.hp.ucmdb_browser.server.util.URLPinger.pingURL(URLPinger.java:46)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:196)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:24:33.441 INFO [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at com.rsa.cryptoj.o.kf$247.a(Unknown Source)
+	at com.rsa.cryptoj.o.kd.newInstance(Unknown Source)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:164)
+	at java.security.Security.getImpl(Security.java:728)
+	at java.security.MessageDigest.getInstance(MessageDigest.java:167)
+	at java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1846)
+	at java.io.ObjectStreamClass.access$100(ObjectStreamClass.java:72)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:253)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:251)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:250)
+	at java.io.ObjectStreamClass.writeNonProxy(ObjectStreamClass.java:735)
+	at java.io.ObjectOutputStream.writeClassDescriptor(ObjectOutputStream.java:668)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1282)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1702)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1094)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+25-Jan-2018 10:24:33.442 SEVERE [localhost-startStop-2] org.apache.catalina.session.StandardManager.stopInternal Exception unloading sessions to persistent storage
+ java.lang.NoClassDefFoundError: com/rsa/cryptoj/o/me$d
+	at com.rsa.cryptoj.o.kf$247.a(Unknown Source)
+	at com.rsa.cryptoj.o.kd.newInstance(Unknown Source)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:164)
+	at java.security.Security.getImpl(Security.java:728)
+	at java.security.MessageDigest.getInstance(MessageDigest.java:167)
+	at java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1846)
+	at java.io.ObjectStreamClass.access$100(ObjectStreamClass.java:72)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:253)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:251)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:250)
+	at java.io.ObjectStreamClass.writeNonProxy(ObjectStreamClass.java:735)
+	at java.io.ObjectOutputStream.writeClassDescriptor(ObjectOutputStream.java:668)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1282)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1702)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1094)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1301)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	... 33 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	... 35 more
+
+25-Jan-2018 10:24:33.586 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:24:33.586 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+ sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+ sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+ sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+ java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+ com.hp.ucmdb_browser.server.util.URLPinger.pingURL(URLPinger.java:46)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:196)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:24:33.591 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:24:33.595 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:24:33.600 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:24:33.601 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:30:24.261 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Valve} Setting property 'resolveHosts' to 'false' did not find a matching property.
+25-Jan-2018 10:30:24.365 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:30:24.495 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:30:24.507 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:30:24.508 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:30:24.515 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 871 ms
+25-Jan-2018 10:30:24.533 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jan-2018 10:30:24.534 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat
+25-Jan-2018 10:30:24.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery-log.war]
+25-Jan-2018 10:30:31.772 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:30:34.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery-log.war] has finished in [9,558] ms
+25-Jan-2018 10:30:34.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery.war]
+25-Jan-2018 10:30:37.660 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:30:39.616 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery.war] has finished in [5,469] ms
+25-Jan-2018 10:30:39.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/new-ui.war]
+25-Jan-2018 10:30:43.232 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:30:44.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/new-ui.war] has finished in [4,558] ms
+25-Jan-2018 10:30:44.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war]
+25-Jan-2018 10:30:56.936 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:30:59.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war] has finished in [14,937] ms
+25-Jan-2018 10:30:59.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:30:59.137 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:30:59.139 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 34623 ms
+25-Jan-2018 10:39:31.075 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:39:31.126 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:39:31.177 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jan-2018 10:39:31.599 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:39:31.600 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [Thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+ sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+ sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+ sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+ sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+ sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+ sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+ java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+ sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+ com.hp.ucmdb_browser.server.util.URLPinger.pingURL(URLPinger.java:46)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:196)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:39:31.764 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:39:31.764 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:202)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:39:31.926 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:39:31.927 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:202)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:39:32.007 INFO [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at com.rsa.cryptoj.o.kf$247.a(Unknown Source)
+	at com.rsa.cryptoj.o.kd.newInstance(Unknown Source)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:164)
+	at java.security.Security.getImpl(Security.java:728)
+	at java.security.MessageDigest.getInstance(MessageDigest.java:167)
+	at java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1846)
+	at java.io.ObjectStreamClass.access$100(ObjectStreamClass.java:72)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:253)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:251)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:250)
+	at java.io.ObjectStreamClass.writeNonProxy(ObjectStreamClass.java:735)
+	at java.io.ObjectOutputStream.writeClassDescriptor(ObjectOutputStream.java:668)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1282)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1702)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1094)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+25-Jan-2018 10:39:32.008 SEVERE [localhost-startStop-2] org.apache.catalina.session.StandardManager.stopInternal Exception unloading sessions to persistent storage
+ java.lang.NoClassDefFoundError: com/rsa/cryptoj/o/me$d
+	at com.rsa.cryptoj.o.kf$247.a(Unknown Source)
+	at com.rsa.cryptoj.o.kd.newInstance(Unknown Source)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:164)
+	at java.security.Security.getImpl(Security.java:728)
+	at java.security.MessageDigest.getInstance(MessageDigest.java:167)
+	at java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1846)
+	at java.io.ObjectStreamClass.access$100(ObjectStreamClass.java:72)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:253)
+	at java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:251)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:250)
+	at java.io.ObjectStreamClass.writeNonProxy(ObjectStreamClass.java:735)
+	at java.io.ObjectOutputStream.writeClassDescriptor(ObjectOutputStream.java:668)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1282)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1702)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1094)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1435)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1301)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	... 33 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [com.rsa.cryptoj.o.me$d]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	... 35 more
+
+25-Jan-2018 10:39:32.148 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+25-Jan-2018 10:39:32.148 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.waitForServerStartup(AppConfigListener.java:202)
+ com.hp.ucmdb_browser.server.web.AppConfigListener.access$000(AppConfigListener.java:41)
+ com.hp.ucmdb_browser.server.web.AppConfigListener$1.run(AppConfigListener.java:166)
+25-Jan-2018 10:39:32.153 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:39:32.155 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:39:32.158 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:39:32.159 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:42:06.847 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Valve} Setting property 'resolveHosts' to 'false' did not find a matching property.
+25-Jan-2018 10:42:06.970 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:42:07.079 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:42:07.082 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:42:07.087 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jan-2018 10:42:07.087 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1396 ms
+25-Jan-2018 10:42:07.103 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jan-2018 10:42:07.104 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat
+25-Jan-2018 10:42:07.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery-log.war]
+25-Jan-2018 10:42:13.357 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:42:15.195 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309] milliseconds.
+25-Jan-2018 10:42:16.268 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery-log.war] has finished in [9,135] ms
+25-Jan-2018 10:42:16.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery.war]
+25-Jan-2018 10:42:21.769 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:42:24.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery.war] has finished in [7,805] ms
+25-Jan-2018 10:42:24.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/new-ui.war]
+25-Jan-2018 10:42:28.167 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:42:29.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/new-ui.war] has finished in [5,068] ms
+25-Jan-2018 10:42:29.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war]
+25-Jan-2018 10:42:44.586 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jan-2018 10:42:47.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war] has finished in [18,460] ms
+25-Jan-2018 10:42:47.786 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+25-Jan-2018 10:42:47.805 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jan-2018 10:42:47.808 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 40721 ms

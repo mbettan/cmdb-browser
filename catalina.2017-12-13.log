@@ -1,0 +1,111 @@
+13-Dec-2017 20:29:03.550 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+13-Dec-2017 20:29:03.603 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Dec-2017 20:29:03.654 INFO [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Dec-2017 20:29:05.550 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+13-Dec-2017 20:29:05.552 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [new-ui] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+ java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+ java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+ java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+ java.net.InetAddress.getAllByName(InetAddress.java:1192)
+ java.net.InetAddress.getAllByName(InetAddress.java:1126)
+ java.net.InetAddress.getByName(InetAddress.java:1076)
+ java.net.InetSocketAddress.<init>(InetSocketAddress.java:220)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isAlive(UcmdbConnectionUtil.java:81)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isServerAlive(UcmdbConnectionUtil.java:73)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.retrieveAllConnectionsPerCustomer(CustomersRetrieverInitializerBean.java:94)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.access$000(CustomersRetrieverInitializerBean.java:45)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean$1.run(CustomersRetrieverInitializerBean.java:70)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+13-Dec-2017 20:29:05.557 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [new-ui] created a ThreadLocal with key of type [com.codahale.metrics.ThreadLocalRandom$1] (value [com.codahale.metrics.ThreadLocalRandom$1@132a121e]) and a value of type [com.codahale.metrics.ThreadLocalRandom] (value [com.codahale.metrics.ThreadLocalRandom@69e10a6b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+13-Dec-2017 20:29:06.336 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+13-Dec-2017 20:29:06.339 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery-log] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.net.InetAddress.checkLookupTable(InetAddress.java:1393)
+ java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1310)
+ java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+ java.net.InetAddress.getAllByName(InetAddress.java:1192)
+ java.net.InetAddress.getAllByName(InetAddress.java:1126)
+ java.net.InetAddress.getByName(InetAddress.java:1076)
+ java.net.InetSocketAddress.<init>(InetSocketAddress.java:220)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isAlive(UcmdbConnectionUtil.java:81)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isServerAlive(UcmdbConnectionUtil.java:73)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.retrieveAllConnectionsPerCustomer(CustomersRetrieverInitializerBean.java:94)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.access$000(CustomersRetrieverInitializerBean.java:45)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean$1.run(CustomersRetrieverInitializerBean.java:70)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+13-Dec-2017 20:29:06.343 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [discovery-log] created a ThreadLocal with key of type [com.codahale.metrics.ThreadLocalRandom$1] (value [com.codahale.metrics.ThreadLocalRandom$1@79a04878]) and a value of type [com.codahale.metrics.ThreadLocalRandom] (value [com.codahale.metrics.ThreadLocalRandom@21031451]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+13-Dec-2017 20:29:06.692 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+13-Dec-2017 20:29:06.694 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [discovery] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.net.InetAddress.checkLookupTable(InetAddress.java:1393)
+ java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1310)
+ java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+ java.net.InetAddress.getAllByName(InetAddress.java:1192)
+ java.net.InetAddress.getAllByName(InetAddress.java:1126)
+ java.net.InetAddress.getByName(InetAddress.java:1076)
+ java.net.InetSocketAddress.<init>(InetSocketAddress.java:220)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isAlive(UcmdbConnectionUtil.java:81)
+ com.hp.ucmdb_browser.server.ucmdb_connection.UcmdbConnectionUtil.isServerAlive(UcmdbConnectionUtil.java:73)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.retrieveAllConnectionsPerCustomer(CustomersRetrieverInitializerBean.java:94)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean.access$000(CustomersRetrieverInitializerBean.java:45)
+ com.hp.ucmdb_browser.server.configuration.CustomersRetrieverInitializerBean$1.run(CustomersRetrieverInitializerBean.java:70)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+13-Dec-2017 20:29:06.696 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [discovery] created a ThreadLocal with key of type [com.codahale.metrics.ThreadLocalRandom$1] (value [com.codahale.metrics.ThreadLocalRandom$1@a28fbe1]) and a value of type [com.codahale.metrics.ThreadLocalRandom] (value [com.codahale.metrics.ThreadLocalRandom@3a2ccc44]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+13-Dec-2017 20:29:07.805 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ucmdb-browser] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.apache.log4j.helpers.FileWatchdog.run(FileWatchdog.java:104)
+13-Dec-2017 20:29:07.814 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+13-Dec-2017 20:29:07.816 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Dec-2017 20:29:07.821 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+13-Dec-2017 20:29:07.822 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Dec-2017 20:39:45.737 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Valve} Setting property 'resolveHosts' to 'false' did not find a matching property.
+13-Dec-2017 20:39:45.938 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+13-Dec-2017 20:39:46.214 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Dec-2017 20:39:46.226 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Dec-2017 20:39:46.230 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Dec-2017 20:39:46.231 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3446 ms
+13-Dec-2017 20:39:46.251 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Dec-2017 20:39:46.251 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat
+13-Dec-2017 20:39:46.408 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery-log.war]
+13-Dec-2017 20:39:56.806 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Dec-2017 20:40:02.499 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [294] milliseconds.
+13-Dec-2017 20:40:04.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery-log.war] has finished in [18,342] ms
+13-Dec-2017 20:40:04.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/discovery.war]
+13-Dec-2017 20:40:11.626 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Dec-2017 20:40:13.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/discovery.war] has finished in [9,072] ms
+13-Dec-2017 20:40:14.036 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/new-ui.war]
+13-Dec-2017 20:40:18.640 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Dec-2017 20:40:19.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/new-ui.war] has finished in [5,940] ms
+13-Dec-2017 20:40:20.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war]
+13-Dec-2017 20:40:39.224 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Dec-2017 20:40:41.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ucmdb-browser.war] has finished in [21,440] ms
+13-Dec-2017 20:40:41.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+13-Dec-2017 20:40:41.533 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Dec-2017 20:40:41.536 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 55304 ms
